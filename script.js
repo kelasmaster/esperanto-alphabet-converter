@@ -14,7 +14,19 @@ document.addEventListener('DOMContentLoaded', () => {
             .replace(/hx/g, 'ĥ')
             .replace(/jx/g, 'ĵ')
             .replace(/sx/g, 'ŝ')
-            .replace(/ux/g, 'ŭ');
+            .replace(/ux/g, 'ŭ')
+            .replace(/Cx/g, 'Ĉ')
+            .replace(/Gx/g, 'Ĝ')
+            .replace(/Hx/g, 'Ĥ')
+            .replace(/Jx/g, 'Ĵ')
+            .replace(/Sx/g, 'Ŝ')
+            .replace(/Ux/g, 'Ŭ')
+            .replace(/CX/g, 'Ĉ')
+            .replace(/GX/g, 'Ĝ')
+            .replace(/HX/g, 'Ĥ')
+            .replace(/JX/g, 'Ĵ')
+            .replace(/SX/g, 'Ŝ')
+            .replace(/UX/g, 'Ŭ');
     }
 
     // Event listener for real-time conversion

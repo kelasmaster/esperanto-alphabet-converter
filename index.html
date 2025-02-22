@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esperanto Alphabet Spelling</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Esperanto Alphabet Spelling</h1>
+        <p>Type your text below using digraphs (e.g., cx for ĉ). The app will automatically convert them to Esperanto characters.</p>
+
+        <!-- Input Area -->
+        <div class="input-area">
+            <textarea id="inputText" placeholder="Type here..."></textarea>
+            <div class="buttons">
+                <button id="clearButton">Clear</button>
+                <button id="copyButton">Copy</button>
+            </div>
+        </div>
+
+        <!-- Output Area -->
+        <div class="output-area">
+            <h2>Converted Text:</h2>
+            <pre id="outputText"></pre>
+        </div>
+
+        <!-- Help Section -->
+        <div class="help-section">
+            <h3>Esperanto Alphabet Guide</h3>
+            <ul>
+                <li><strong>cx</strong> → ĉ</li>
+                <li><strong>gx</strong> → ĝ</li>
+                <li><strong>hx</strong> → ĥ</li>
+                <li><strong>jx</strong> → ĵ</li>
+                <li><strong>sx</strong> → ŝ</li>
+                <li><strong>ux</strong> → ŭ</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
